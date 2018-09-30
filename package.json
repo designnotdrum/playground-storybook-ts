@@ -1,0 +1,49 @@
+{
+  "name": "playground-storybook-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/draft-js": "^0.10.25",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-links": "^3.3.2",
+    "@types/storybook__react": "^3.0.9",
+    "framer": "^0.8.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts-ts": "3.1.0",
+    "styled-components": "^3.4.9"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-info": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "4.0.0-alpha.23",
+    "@storybook/react": "4.0.0-alpha.23",
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.11.3",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "@types/storybook__addon-info": "^3.4.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
+    "babel-runtime": "^6.26.0",
+    "jest": "^23.6.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "ts-jest": "^23.10.2",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1"
+  }
+}
