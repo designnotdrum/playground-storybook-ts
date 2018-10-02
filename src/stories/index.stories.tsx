@@ -4,6 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import { withInfo } from '@storybook/addon-info';
+import { withKnobs, text, boolean, number, color } from '@storybook/addon-knobs';
 
 import { Button, Welcome } from '@storybook/react/demo';
 

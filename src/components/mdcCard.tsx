@@ -54,6 +54,8 @@ export class Card extends React.Component<Props> {
       'Visit ten places on our planet that are undergoing the biggest changes today.',
     icon1: 'share',
     icon2: 'more_vert',
+    action1: '',
+    action2: ''
   }
   static propertyControls: PropertyControls = {
     imagePath: { type: ControlType.String, title: 'Image URL' },
