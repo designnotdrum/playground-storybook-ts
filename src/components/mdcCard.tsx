@@ -110,8 +110,9 @@ export class Card extends React.Component<Props> {
           )}
         </CardContent>
 
-        {this.props.action1 && (
+        
           <div className="mdc-card__actions">
+          {this.props.action1 != '' && (
             <div className="mdc-card__action-buttons">
               {this.props.action1 && (
                 <button className="mdc-button mdc-card__action mdc-card__action--button">
@@ -125,7 +126,8 @@ export class Card extends React.Component<Props> {
                 </button>
               )}
             </div>
-
+        )}
+        {this.props.icon1 != '' && (
             <div className="mdc-card__action-icons">
               {this.props.icon1 && (
                 <button
@@ -144,8 +146,8 @@ export class Card extends React.Component<Props> {
                 </button>
               )}
             </div>
-          </div>
         )}
+        </div>
       </div>
     )
   }
